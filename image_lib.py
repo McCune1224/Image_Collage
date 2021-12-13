@@ -76,11 +76,12 @@ which serves a similar purpose in the graphics primitive world.
 #   Add autoShow function that can be used to get and optionally set a flag
 #     that if True makes images automatically be displayed when their printed
 #     representation is produced (e.g. as results in the shell).
-
 try:
     import tkinter
 except:
-    import Tkinter as tkinter
+    print("F A I L E D !!!!!")
+    pass
+    #import Tkinter as tkinter
 
 pilAvailable = True
 try:
